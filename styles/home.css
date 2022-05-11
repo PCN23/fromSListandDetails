@@ -1,1 +1,26 @@
 /* add home page styles here */
+body {
+    background-color: antiquewhite;
+    font-style:italic
+}
+
+
+#id {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid red;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+    
+
+
+.main-section { color: rgb(134, 8, 159);
+    text-align: left;
+
+
+}
+
