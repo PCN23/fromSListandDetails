@@ -7,6 +7,14 @@ export function renderStadiumLi(stadium) {
     return li;
 }
 
-export function findById(id, data) {
-    return data.find((item) => item.id === id);
+export function findById(id, arr) {
+
+    console.log(id);
+    console.log(arr);
+    
+    for (let item of arr) {
+        if (id === item.id) {
+            return item;
+        }
+    }
 }
